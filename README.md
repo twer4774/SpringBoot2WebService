@@ -9,4 +9,6 @@ gradle Package -> gradle-wrapper.properties -> distributionUrl=https\://services
 - p110. Mapping 오류 <br>
 https://github.com/jojoldu/freelec-springboot2-webservice/issues/174 <br>
 PostsApiController에서는 PutMapping("/api/v1/posts")로 정의되어있는데 PostApiControllerTest에서는 restTemplate.postForEntity(Post)로 진행하여 오류<br>
-=> PostApiController에서 PutMapping -> PostMapping으로 수정
+=> PostApiController에서 PutMapping -> PostMapping으로 수정 <br><br>
+- p113. PostsUpdateRequestDto에 대한 코드가 없음 <br>
+https://github.com/jojoldu/freelec-springboot2-webservice/issues/15
