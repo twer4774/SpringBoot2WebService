@@ -1,5 +1,6 @@
 package com.walter.springboot.domain.posts;
 
+import com.walter.springboot.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -9,7 +10,7 @@ import javax.persistence.*;
 @Getter
 @NoArgsConstructor
 @Entity //JPA의 어노테이션. 테이블과 연결될 클래스임을 나타냄. 카멜케이스네이밍으로 스네이크케이스 테이블연결(SalesManager.java -> sales_manager table)
-public class Posts {
+public class Posts extends BaseTimeEntity {
 
     @Id //
     @GeneratedValue(strategy = GenerationType.IDENTITY) //PK생성 규칙. auto_increment부여
