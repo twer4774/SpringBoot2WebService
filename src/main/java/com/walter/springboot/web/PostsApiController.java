@@ -1,11 +1,14 @@
 package com.walter.springboot.web;
 
 import com.walter.springboot.service.posts.PostsService;
+import com.walter.springboot.web.dto.PostsListResponseDto;
 import com.walter.springboot.web.dto.PostsResponseDto;
 import com.walter.springboot.web.dto.PostsSaveRequestDto;
 import com.walter.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RequiredArgsConstructor
 @RestController
