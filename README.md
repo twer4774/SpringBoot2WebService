@@ -11,4 +11,7 @@ https://github.com/jojoldu/freelec-springboot2-webservice/issues/174 <br>
 PostsApiController에서는 PutMapping("/api/v1/posts")로 정의되어있는데 PostApiControllerTest에서는 restTemplate.postForEntity(Post)로 진행하여 오류<br>
 => PostApiController에서 PutMapping -> PostMapping으로 수정 <br><br>
 - p113. PostsUpdateRequestDto에 대한 코드가 없음 <br>
-https://github.com/jojoldu/freelec-springboot2-webservice/issues/15
+https://github.com/jojoldu/freelec-springboot2-webservice/issues/15 <br><br>
+- p210. 네이버로그인 application-oauth.properties response 뒤에 공백이 있는 경우 에러가 뜸
+https://github.com/jojoldu/freelec-springboot2-webservice/issues/339
+
